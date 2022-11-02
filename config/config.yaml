@@ -1,0 +1,23 @@
+# path to contigs folder
+fasta_folder: /data/san/data1/users/remi/Proteins
+
+# Extension of the file
+extension: prt
+
+# path to the result folder
+output_folder: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2
+
+# Type of replicon choose between {ordered_replicon,gembase,unordered}
+db_type: gembase
+
+# Topology of the replicon: {linear,circular}
+replicon_topology: circular
+
+# Folder with the models
+macsydata: /data/san/data1/users/remi/macsydata
+
+# Models to search in a tsv file, first columns name of the replicon second the models with an header
+models_tsv: config/replicon_models.all.tsv
+
+# Default models if no model provide in the tsv
+models: TXSScan all

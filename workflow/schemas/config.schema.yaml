@@ -1,0 +1,32 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  fasta_folder:
+    type: string
+  output_folder:
+    type: string
+  db_type:
+    type: string
+    enum: ["ordered_replicon","gembase","unordered"]
+  replicon_topology:
+    type: string
+    enum: ["linear","circular"]
+  macsydata:
+    type: string
+  models_tsv:
+    type: string
+  models:
+    type: string
+
+required:
+  - fasta_folder
+  - output_folder
+  - db_type
+  - replicon_topology
+  - macsydata
+  - models_tsv
+  - models
