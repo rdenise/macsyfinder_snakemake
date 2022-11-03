@@ -1,0 +1,660 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Singularity containers: ignored
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+macsyfinder       22              1              1
+macsymerge         1              1              1
+total             24              1              1
+
+Select jobs to execute...
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/LAPA003.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LAPA003.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/LAPA003.0321.00001.C001.log
+    jobid: 24545
+    reason: Forced execution
+    wildcards: replicon=LAPA003.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/MASP030.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP030.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MASP030.0321.00001.C001.log
+    jobid: 26915
+    reason: Forced execution
+    wildcards: replicon=MASP030.0321.00001.C001
+    resources: tmpdir=/tmp
+
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/PABO001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PABO001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PABO001.0321.00001.C001.log
+    jobid: 29713
+    reason: Forced execution
+    wildcards: replicon=PABO001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/ROUL001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ROUL001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ROUL001.0321.00001.C001.log
+    jobid: 34521
+    reason: Forced execution
+    wildcards: replicon=ROUL001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/PLSP002.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PLSP002.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PLSP002.0321.00001.C001.log
+    jobid: 31386
+    reason: Forced execution
+    wildcards: replicon=PLSP002.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/DUSP002.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/DUSP002.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/DUSP002.0321.00001.C001.log
+    jobid: 10791
+    reason: Forced execution
+    wildcards: replicon=DUSP002.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/GEOB001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/GEOB001.0321.00001.C001.log
+    jobid: 18584
+    reason: Forced execution
+    wildcards: replicon=GEOB001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/ANLU001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANLU001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ANLU001.0321.00001.C001.log
+    jobid: 2242
+    reason: Forced execution
+    wildcards: replicon=ANLU001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/CHAR001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHAR001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/CHAR001.0321.00001.C001.log
+    jobid: 8265
+    reason: Forced execution
+    wildcards: replicon=CHAR001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/LICR002.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LICR002.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/LICR002.0321.00001.C001.log
+    jobid: 26085
+    reason: Forced execution
+    wildcards: replicon=LICR002.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/GEOB001.0321.00002.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00002.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/GEOB001.0321.00002.C001.log
+    jobid: 18585
+    reason: Forced execution
+    wildcards: replicon=GEOB001.0321.00002.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/PHMI001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PHMI001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PHMI001.0321.00001.C001.log
+    jobid: 30841
+    reason: Forced execution
+    wildcards: replicon=PHMI001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/PIST001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PIST001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PIST001.0321.00001.C001.log
+    jobid: 31352
+    reason: Forced execution
+    wildcards: replicon=PIST001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/ANAG001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANAG001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ANAG001.0321.00001.C001.log
+    jobid: 2207
+    reason: Forced execution
+    wildcards: replicon=ANAG001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/MIRO001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MIRO001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MIRO001.0321.00001.C001.log
+    jobid: 27445
+    reason: Forced execution
+    wildcards: replicon=MIRO001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/PINU001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PINU001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PINU001.0321.00001.C001.log
+    jobid: 30940
+    reason: Forced execution
+    wildcards: replicon=PINU001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/FIGI001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/FIGI001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/FIGI001.0321.00001.C001.log
+    jobid: 18213
+    reason: Forced execution
+    wildcards: replicon=FIGI001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/TUIM001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/TUIM001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/TUIM001.0321.00001.C001.log
+    jobid: 41358
+    reason: Forced execution
+    wildcards: replicon=TUIM001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:22 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/CHCR001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHCR001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/CHCR001.0321.00001.C001.log
+    jobid: 8283
+    reason: Forced execution
+    wildcards: replicon=CHCR001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:23 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/MASP004.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP004.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MASP004.0321.00001.C001.log
+    jobid: 26876
+    reason: Forced execution
+    wildcards: replicon=MASP004.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:23 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/MAAR001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAAR001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MAAR001.0321.00001.C001.log
+    jobid: 26674
+    reason: Forced execution
+    wildcards: replicon=MAAR001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+
+[Thu Nov  3 10:01:23 2022]
+rule macsyfinder:
+    input: /data/san/data1/users/remi/Proteins/MAVI001.0321.00001.C001.prt
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAVI001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MAVI001.0321.00001.C001.log
+    jobid: 26937
+    reason: Forced execution
+    wildcards: replicon=MAVI001.0321.00001.C001
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+Error in rule macsyfinder:
+    jobid: 26085
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LICR002.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/LICR002.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/LICR002.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/LICR002.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LICR002.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/LICR002.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/LICR002.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LICR002.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+Error in rule macsyfinder:
+    jobid: 2242
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANLU001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ANLU001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/ANLU001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/ANLU001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANLU001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ANLU001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/ANLU001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANLU001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+Error in rule macsyfinder:
+    jobid: 29713
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PABO001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PABO001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/PABO001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/PABO001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PABO001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PABO001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/PABO001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PABO001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+Error in rule macsyfinder:
+    jobid: 18584
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/GEOB001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/GEOB001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/GEOB001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/GEOB001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/GEOB001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Nov  3 11:31:41 2022]
+Error in rule macsyfinder:
+    jobid: 26915
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP030.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MASP030.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/MASP030.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/MASP030.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP030.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MASP030.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/MASP030.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP030.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+[Thu Nov  3 11:31:41 2022]
+Error in rule macsyfinder:
+    jobid: 31386
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PLSP002.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PLSP002.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/PLSP002.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/PLSP002.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PLSP002.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PLSP002.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/PLSP002.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PLSP002.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 26876
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP004.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MASP004.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/MASP004.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/MASP004.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP004.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MASP004.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/MASP004.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MASP004.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 26674
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAAR001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MAAR001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/MAAR001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/MAAR001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAAR001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MAAR001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/MAAR001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAAR001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 24545
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LAPA003.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/LAPA003.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/LAPA003.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/LAPA003.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LAPA003.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/LAPA003.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/LAPA003.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/LAPA003.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 34521
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ROUL001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ROUL001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/ROUL001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/ROUL001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ROUL001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ROUL001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/ROUL001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ROUL001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 26937
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAVI001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MAVI001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/MAVI001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/MAVI001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAVI001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MAVI001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/MAVI001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MAVI001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 18585
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00002.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/GEOB001.0321.00002.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/GEOB001.0321.00002.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/GEOB001.0321.00002.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00002.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/GEOB001.0321.00002.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/GEOB001.0321.00002.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/GEOB001.0321.00002.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 30940
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PINU001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PINU001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/PINU001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/PINU001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PINU001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PINU001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/PINU001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PINU001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 8265
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHAR001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/CHAR001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/CHAR001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/CHAR001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHAR001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/CHAR001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/CHAR001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHAR001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 10791
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/DUSP002.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/DUSP002.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/DUSP002.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/DUSP002.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/DUSP002.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/DUSP002.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/DUSP002.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/DUSP002.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 27445
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MIRO001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MIRO001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/MIRO001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/MIRO001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MIRO001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/MIRO001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/MIRO001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/MIRO001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 8283
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHCR001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/CHCR001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/CHCR001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/CHCR001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHCR001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/CHCR001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/CHCR001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/CHCR001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 2207
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANAG001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ANAG001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/ANAG001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/ANAG001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANAG001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/ANAG001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/ANAG001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/ANAG001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 41358
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/TUIM001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/TUIM001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/TUIM001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/TUIM001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/TUIM001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/TUIM001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/TUIM001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/TUIM001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 30841
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PHMI001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PHMI001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/PHMI001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/PHMI001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PHMI001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PHMI001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/PHMI001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PHMI001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 31352
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PIST001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PIST001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/PIST001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/PIST001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PIST001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/PIST001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/PIST001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/PIST001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule macsyfinder:
+    jobid: 18213
+    output: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/FIGI001.0321.00001.C001
+    log: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/FIGI001.0321.00001.C001.log (check log file(s) for error message)
+    conda-env: /data/san/data1/users/remi/macsyfinder_snakemake/.snakemake/conda/20a55dcc776c8f23bc6976e4b66128b0_
+    shell:
+        
+        if [[ -s /data/san/data1/users/remi/Proteins/FIGI001.0321.00001.C001.prt ]] ; then
+            macsyfinder --models-dir /data/san/data1/users/remi/macsydata --sequence-db /data/san/data1/users/remi/Proteins/FIGI001.0321.00001.C001.prt -o /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/FIGI001.0321.00001.C001 --db-type gembase --replicon-topology circular -w 1 --models TXSScan CONJ Flagellum T1SS T2SS T3SS T4aP T4SS_typeB T4SS_typeC T4SS_typeF T4SS_typeG T4SS_typeI T4SS_typeT T5aSS T5bSS T5cSS T6SSi T6SSii T6SSiii T9SS Tad pT4SSi pT4SSt MSH ComM &> /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/logs/macsyfinder/FIGI001.0321.00001.C001.log
+        else
+            echo /data/san/data1/users/remi/Proteins/FIGI001.0321.00001.C001.prt
+            mkdir -p /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2/REPLICONS/FIGI001.0321.00001.C001
+        fi
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
