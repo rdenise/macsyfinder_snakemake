@@ -53,13 +53,13 @@ if not config["extension"].startswith("."):
 else:
     EXT_FILE = config["extension"][1:]
 
-#(REPLICON_NAME,) = glob_wildcards(os.path.join(FASTA_FOLDER, f"{{replicon_name}}.{EXT_FILE}"))
+# (REPLICON_NAME,) = glob_wildcards(os.path.join(FASTA_FOLDER, f"{{replicon_name}}.{EXT_FILE}"))
 
 ##########################################################################
 
 if config["models_tsv"]:
     dict_models = pd.read_table(config["models_tsv"], index_col=0)
-    dict_models = dict_models[~(dict_models.models == "TFF-SF Archaeal-T4P")].iloc[:,0].to_dict()
+    dict_models = dict_models.iloc[:,0].to_dict()
 else: 
     dict_models = {}
 

@@ -68,7 +68,11 @@ rule macsymerge:
     conda:
         "../envs/macsyfinder.yaml"
     shell:
-        """macsymerge --out-dir {output.merge:q} {input.results_macsyfinder:q} &> {log:q}"""
+        """
+        ulimit -S -s unlimited
+
+        macsymerge --out-dir {output.merge:q} {input.results_macsyfinder:q} &> {log:q}
+        """
 
 
 ##########################################################################
