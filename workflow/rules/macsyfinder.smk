@@ -15,7 +15,7 @@ rule macsyfinder:
     params:
         macsydata=config["macsydata"],
         db_type=config["db_type"],
-	cut_ga="" if config["cut_ga"] else "--cut-ga",
+	cut_ga="" if config["cut_ga"] else "--no-cut-ga",
         replicon_topology=config["replicon_topology"],
         models=lambda wildcards: dict_models[wildcards.replicon] if wildcards.replicon in dict_models else config["models"],
     log:
