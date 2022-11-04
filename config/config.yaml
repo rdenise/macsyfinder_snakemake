@@ -5,7 +5,7 @@ fasta_folder: /data/san/data1/users/remi/Proteins
 extension: prt
 
 # path to the result folder
-output_folder: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2
+output_folder: /data/san/data1/users/remi/macsyfinder_TXSScan_stats_v2_nocutga
 
 # Type of replicon choose between {ordered_replicon,gembase,unordered}
 db_type: gembase
@@ -21,3 +21,6 @@ models_tsv: config/replicon_models.all.tsv
 
 # Default models if no model provide in the tsv
 models: TXSScan all
+
+# To activate or deactivate cut-ga
+cut_ga: False

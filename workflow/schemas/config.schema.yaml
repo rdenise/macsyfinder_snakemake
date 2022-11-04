@@ -21,6 +21,8 @@ properties:
     type: string
   models:
     type: string
+  cut_ga:
+    type: boolean
 
 required:
   - fasta_folder
@@ -30,3 +32,4 @@ required:
   - macsydata
   - models_tsv
   - models
+  - cut_ga

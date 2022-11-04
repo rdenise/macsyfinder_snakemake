@@ -15,6 +15,7 @@ rule macsyfinder:
     params:
         macsydata=config["macsydata"],
         db_type=config["db_type"],
+	cut_ga="" if config["cut_ga"] else "--cut-ga",
         replicon_topology=config["replicon_topology"],
         models=lambda wildcards: dict_models[wildcards.replicon] if wildcards.replicon in dict_models else config["models"],
     log:
@@ -30,7 +31,7 @@ rule macsyfinder:
     shell:
         """
         if [[ -s {input.fasta:q} ]] ; then
-            macsyfinder --models-dir {params.macsydata:q} --sequence-db {input.fasta:q} -o {output.results:q} --db-type {params.db_type} --replicon-topology {params.replicon_topology} -w {threads} --models {params.models} &> {log:q}
+            macsyfinder --models-dir {params.macsydata:q} --sequence-db {input.fasta:q} -o {output.results:q} --db-type {params.db_type} --replicon-topology {params.replicon_topology} -w {threads} --models {params.models} {params.cut-ga} &> {log:q}
         else
             echo {input.fasta}
             mkdir -p {output.results:q}
