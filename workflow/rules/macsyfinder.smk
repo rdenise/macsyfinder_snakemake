@@ -31,7 +31,7 @@ rule macsyfinder:
     shell:
         """
         if [[ -s {input.fasta:q} ]] ; then
-            macsyfinder --models-dir {params.macsydata:q} --sequence-db {input.fasta:q} -o {output.results:q} --db-type {params.db_type} --replicon-topology {params.replicon_topology} -w {threads} --models {params.models} {params.cut-ga} &> {log:q}
+            macsyfinder --models-dir {params.macsydata:q} --sequence-db {input.fasta:q} -o {output.results:q} --db-type {params.db_type} --replicon-topology {params.replicon_topology} -w {threads} --models {params.models} {params.cut_ga} &> {log:q}
         else
             echo {input.fasta}
             mkdir -p {output.results:q}
