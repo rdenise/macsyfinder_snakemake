@@ -79,34 +79,34 @@ rule macsymerge:
 ##########################################################################
 
 
-rule macsyprofile:
-    input:
-        results=os.path.join(
-            OUTPUT_FOLDER,
-            "REPLICONS",
-            "{replicon}",
-        ),
-    output:
-        results=os.path.join(
-            OUTPUT_FOLDER,
-            "REPLICONS",
-            "{replicon}",
-            "hmm_coverage.tsv",
-        ),
-    log:
-        os.path.join(
-            OUTPUT_FOLDER,
-            "logs",
-            "macsyprofile",
-            "{replicon}.log",
-        ),
-    threads: 1
-    conda:
-        "../envs/macsyfinder.yaml"
-    shell:
-        """
-        macsyprofile {input.results:q}
-        """
+# rule macsyprofile:
+#     input:
+#         results=os.path.join(
+#             OUTPUT_FOLDER,
+#             "REPLICONS",
+#             "{replicon}",
+#         ),
+#     output:
+#         results=os.path.join(
+#             OUTPUT_FOLDER,
+#             "REPLICONS",
+#             "{replicon}",
+#             "hmm_coverage.tsv",
+#         ),
+#     log:
+#         os.path.join(
+#             OUTPUT_FOLDER,
+#             "logs",
+#             "macsyprofile",
+#             "{replicon}.log",
+#         ),
+#     threads: 1
+#     conda:
+#         "../envs/macsyfinder.yaml"
+#     shell:
+#         """
+#         macsyprofile {input.results:q} &> {log:q}
+#         """
 
 
 ##########################################################################

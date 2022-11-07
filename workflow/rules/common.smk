@@ -25,7 +25,7 @@ def get_final_output():
     #replicon=REPLICON_NAME
     #),
 
-    #final_output = expand(
+    # final_output = expand(
     #        os.path.join(
     #            OUTPUT_FOLDER,
     #            "REPLICONS",
